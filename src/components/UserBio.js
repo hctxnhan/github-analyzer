@@ -46,7 +46,7 @@ export default function UserBio() {
 
           <a
             href={user.html_url}
-            className='px-5 py-1 border-2 border-slate-900 rounded-md hover:bg-slate-800 hover:text-slate-50 items-self-end'
+            className='px-5 py-1 border-2 border-slate-900 rounded-md hover:bg-slate-800 hover:text-slate-50 items-self-end inline-block'
           >
             Follow
           </a>
