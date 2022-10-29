@@ -1,8 +1,6 @@
 import AdditionalStatistic from '../components/AdditionalStatistic';
 import Loading from '../components/Loading';
 import ReposList from '../components/ReposList';
-import SearchBar from '../components/SearchBar';
-import UserInfo from '../components/UserInfo';
 import { useGithubContext } from '../context/GithubContext';
 import useSort from '../hooks/useSort';
 

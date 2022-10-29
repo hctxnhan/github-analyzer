@@ -1,8 +1,5 @@
 import { createContext, useContext, useState } from 'react';
 import useFetch from '../hooks/useFetch';
-import mockUser from './mockData.js/mockUser';
-import mockRepos from './mockData.js/mockRepos';
-import mockFollowers from './mockData.js/mockFollowers';
 
 function getUserQuery(username) {
   return `https://api.github.com/users/${username}`;

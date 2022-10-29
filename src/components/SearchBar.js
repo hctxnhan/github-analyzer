@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { RiSearchLine } from 'react-icons/ri';
 import { useGithubContext } from '../context/GithubContext';
 export default function SearchBar() {
-  const { search, setSearch } = useGithubContext();
+  const { setSearch } = useGithubContext();
   const [input, setInput] = useState('');
 
   return (

@@ -1,12 +1,8 @@
-import UserBio from './components/UserBio';
 import { GithubProvider } from './context/GithubContext';
 import Home from './pages/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Repos from './pages/Repos';
-import SearchBar from './components/SearchBar';
-import UserInfo from './components/UserInfo';
 import Followers from './pages/Followers';
-import ErrorPage from './pages/ErrorPage';
 import HomeLayout from './pages/HomeLayout';
 
 export default function App() {

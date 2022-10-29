@@ -1,11 +1,7 @@
-import { Outlet, Route, Routes } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
 import UserBio from '../components/UserBio';
 import UserInfo from '../components/UserInfo';
-import ErrorPage from './ErrorPage';
-import Followers from './Followers';
-import Home from './Home';
-import Repos from './Repos';
 
 export default function HomeLayout() {
   return (
