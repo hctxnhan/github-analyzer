@@ -59,7 +59,7 @@ export default function AdditionalStatistic() {
       {errorRepos ? (
         <p>{errorRepos}</p>
       ) : (
-        <div className='flex gap-4'>
+        <div className='flex flex-col gap-4 sm:flex-row'>
           {list[0] && (
             <InfoCard
               title={`Most used language (${list[0].value} projects)`}
