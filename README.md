@@ -1,6 +1,6 @@
 # React Music Player
 
-![screencapture-react-github-analyzer-netlify-app-2022-10-30-11_45_50](https://user-images.githubusercontent.com/95177300/198863045-a6da6a71-68a4-4c80-a495-d9af85d54965.png)
+![screencapture-react-github-analyzer-netlify-app-2022-11-04-08_37_53](https://user-images.githubusercontent.com/95177300/199866649-fae10ec8-f1e6-4258-bd7f-238798b44c7f.png)
 
 In the project directory, you can run:
 
