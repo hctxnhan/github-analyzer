@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# React Music Player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+![screencapture-react-github-analyzer-netlify-app-2022-10-30-11_45_50](https://user-images.githubusercontent.com/95177300/198863045-a6da6a71-68a4-4c80-a495-d9af85d54965.png)
 
 In the project directory, you can run:
 
