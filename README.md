@@ -1,4 +1,4 @@
-# React Music Player
+# Github analyzer
 
 ![screencapture-react-github-analyzer-netlify-app-2022-11-04-08_37_53](https://user-images.githubusercontent.com/95177300/199866649-fae10ec8-f1e6-4258-bd7f-238798b44c7f.png)
 
