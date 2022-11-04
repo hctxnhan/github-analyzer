@@ -1,8 +1,21 @@
+import { useNavigate } from 'react-router-dom';
+import { useGithubContext } from '../context/GithubContext';
+
 export default function FollowerCard({ follower }) {
   const { avatar_url, login, html_url } = follower;
+  const { setSearch } = useGithubContext();
+
+  const navigate = useNavigate();
+  const handleClick = () => {
+    setSearch(login);
+    navigate('/');
+  };
 
   return (
-    <div className='bg-slate-100 p-5 rounded-md flex gap-4 items-center shadow-md shadow-slate-200'>
+    <button
+      onClick={handleClick}
+      className='bg-slate-100 p-5 rounded-md flex gap-4 items-center shadow-md shadow-slate-200'
+    >
       <div className='rounded-full overflow-hidden'>
         <img
           className='h-[60px] w-[60px] object-cover object-center'
@@ -10,12 +23,10 @@ export default function FollowerCard({ follower }) {
           alt=''
         />
       </div>
-      <div>
+      <div className='text-left'>
         <p className='text-lg font-semibold'>{login}</p>
-        <a href={html_url} className='text-slate-500'>
-          {html_url}
-        </a>
+        <p className='text-slate-500'>{html_url}</p>
       </div>
-    </div>
+    </button>
   );
 }
